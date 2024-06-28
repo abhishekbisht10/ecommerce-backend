@@ -1,2 +1,2 @@
 # Sneakers MERN Stack Website
-Backend for Sneakers ecommerce website 
+Backend code: Node.js, Express.js
