@@ -1,12 +1,15 @@
 // Route functions
+const sneakerData = require('../data/sneakers');
+
+const hello = (req, res) => {
+    res.json('Hello World!');
+}
 
 const getProducts = (req, res) => {
-    res.json({
-        id: 1021,
-        item: 'Facewash'
-    });
+    res.json(sneakerData);
 }
 
 module.exports = {
+    hello,
     getProducts,
 }
